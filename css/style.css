@@ -1,0 +1,64 @@
+/*
+=====================
+Main
+=====================
+*/
+
+html {
+  overflow-x: hidden;
+}
+
+/*
+=====================
+Tabs
+=====================
+*/
+
+.tab {
+  overflow: hidden;
+  background-color: #0CB1FF;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #2587BF;
+}
+
+.tab button.active {
+  background-color: #000000;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+   animation: fadeEffect 1s;
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/*
+=====================
+Canvas
+=====================
+*/
+
+#mainEnvironment {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
