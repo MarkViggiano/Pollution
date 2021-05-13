@@ -8,34 +8,32 @@
   </head>
   <body>
 
-    <!-- Tab links -->
-    <div class="tab">
-      <button class="tablinks" onclick="openTab(event, 'Controls')" id="defaultOpen">Controls</button>
-      <button class="tablinks" onclick="openTab(event, 'Stats')">Statistics</button>
-    </div>
-
-    <!-- Tab content -->
-    <div id="Controls" class="tabcontent">
-      <h3>Controls</h3>
-    </div>
-
-    <div id="Stats" class="tabcontent">
-      <h3>Statistics</h3>
-    </div>
-
     <canvas id="mainEnvironment" width="1600" height="800" class="mt-3 mb-3"></canvas>
 
-    <img src="./js/assets/AdultFox.png" id="aFox" width="50px" height="60px" class="hidden">
-    <img src="./js/assets/BabyFox.png" id="bFox" width="30px" height="35px" class="hidden">
-    <img src="./js/assets/AdultRabbit.png" id="aRabbit" width="20px" height="30px" class="hidden">
-    <img src="./js/assets/BabyRabbit.png" id="bRabbit" width="10px" height="15px" class="hidden">
-    <img src="./js/assets/grass-removebg-preview.png" id="grass" class="hidden">
+    <img src="./assets/AdultFox.png" id="aFox" width="50px" height="60px" class="hidden">
+    <img src="./assets/BabyFox.png" id="bFox" width="30px" height="35px" class="hidden">
+    <img src="./assets/AdultRabbit.png" id="aRabbit" width="20px" height="30px" class="hidden">
+    <img src="./assets/BabyRabbit.png" id="bRabbit" width="10px" height="15px" class="hidden">
+    <img src="./assets/grass.png" id="grass" class="hidden">
+    <img src="./assets/redCar.png" id="redCar" width="100px" height="50px" class="hidden">
+    <img src="./assets/blueCar.png" id="blueCar" width="100px" height="50px" class="hidden">
+    <img src="./assets/yellowCar.png" id="yellowCar" width="100px" height="50px" class="hidden">
+    <img src="./assets/pinkCar.png" id="pinkCar" width="100px" height="50px" class="hidden">
+
+    <div class="container border mx-auto rounded shadow mb-5">
+      <div class="title">
+        Animals
+      </div>
+
+      <div class="row mx-auto mb-3" id="animals">
+      </div>
+
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="./js/tabs.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
